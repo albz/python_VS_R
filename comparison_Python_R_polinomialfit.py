@@ -21,7 +21,7 @@ coefficients = poly.polyfit(x, y, 3)
 y_reconstructed = poly.polyval(x, coefficients)
 
 
-%matplotlib inline
+#%matplotlib inline
 pyl.plot(x,y,'.',label='scattered data')
 pyl.plot(x,y_therory,'x',label='original data')
 pyl.plot(x,y_reconstructed,'-',label='fit',lw=3)

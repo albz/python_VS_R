@@ -15,5 +15,5 @@ y=np.linspace(-5,5,100)
 xx, yy = np.meshgrid(x, y)
 z = np.exp(-xx**2/6 - yy**2/3)
 
-%matplotlib inline
+#%matplotlib inline
 plt.contourf(x,y,z,100)
