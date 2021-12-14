@@ -8,6 +8,7 @@
 
 import numpy as np
 import pylab as pyl
+import matplotlib.pyplot as plt
 
 #--- generate mesh ---#
 x=np.linspace(-5,5,100)
